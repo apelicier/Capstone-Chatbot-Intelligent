@@ -4807,19 +4807,143 @@
 				"If this is a medical emergency, please call 3703 1116 or go to the nearest hospital immediately.",
 				"Please contact emergency services right away. I can assist with scheduling a follow-up after you receive care."
 				]
-				},
+				},{
+	            "tag": "greeting",
+	            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "How are you?", "Greetings", "What’s up?", "Hi there", "Hello assistant"],
+	            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help you with your healthcare needs today?"]
+		        },
+		        {
+		            "tag": "goodbye",
+		            "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Talk to you soon", "Catch you later", "Have a nice day"],
+		            "responses": ["Goodbye! Take care of your health.", "See you soon!", "Have a great day!"]
+		        },
+		        {
+		            "tag": "thanks",
+		            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "Many thanks", "I’m grateful", "Thanks for your help"],
+		            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+		        },
+		        {
+		            "tag": "working_hours",
+		            "patterns": ["What are your working hours?", "When are you open?", "Are you open on weekends?", "When can I visit?", "Clinic schedule please"],
+		            "responses": ["Our clinic is open from 8 AM to 6 PM, Monday through Friday.", "We’re open on weekdays from 8 AM to 6 PM, and on Saturdays from 9 AM to 1 PM."]
+		        },
+		        {
+		            "tag": "emergency",
+		            "patterns": ["I have chest pain", "This is an emergency", "What should I do in an emergency?", "I think I’m having a heart attack", "Severe bleeding"],
+		            "responses": ["If this is a medical emergency, please call 3703 1116 or go to the nearest hospital immediately.", "Please contact emergency services right away. I can assist with scheduling a follow-up after you receive care."]
+		        },
+		        {
+		            "tag": "appointment_booking",
+		            "patterns": ["I need to book an appointment", "Can I schedule a visit?", "Book a doctor", "I’d like to see a doctor", "How do I make an appointment?"],
+		            "responses": ["Sure! Please provide your preferred date, time, and doctor’s name.", "Absolutely! I can help you schedule an appointment right away."]
+		        },
+		        {
+		            "tag": "appointment_cancellation",
+		            "patterns": ["Cancel my appointment", "I need to cancel", "How to cancel an appointment", "Delete my booking"],
+		            "responses": ["Your appointment has been canceled. Would you like to reschedule it?", "Okay, I’ve canceled it. Let me know if you want to book another time."]
+		        },
+		        {
+		            "tag": "appointment_reschedule",
+		            "patterns": ["Reschedule my appointment", "Can I change my appointment?", "Move my booking", "Change appointment time"],
+		            "responses": ["Of course! Please provide the new date and time you prefer.", "No problem, when would you like to reschedule your appointment?"]
+		        },
+		        {
+		            "tag": "symptom_check",
+		            "patterns": ["I have a headache", "I feel dizzy", "I have a sore throat", "My stomach hurts", "I feel tired all the time"],
+		            "responses": ["I’m sorry to hear that. Could you describe your symptoms in more detail?", "It’s best to book an appointment so a doctor can evaluate your symptoms."]
+		        },
+		        {
+		            "tag": "insurance",
+		            "patterns": ["Do you accept insurance?", "What insurance plans do you take?", "Is my insurance valid here?", "Can I pay with my health insurance?"],
+		            "responses": ["Yes, we accept most major insurance providers.", "Please share your insurance company’s name, and I can verify it for you."]
+		        },
+		        {
+		            "tag": "doctor_availability",
+		            "patterns": ["Is Dr. Smith available?", "Can I see Dr. Brown today?", "Which doctors are available now?", "Who’s on duty today?"],
+		            "responses": ["Let me check for you. Dr. Smith is available from 10 AM to 2 PM.", "Dr. Brown has open slots this afternoon."]
+		        },
+		        {
+		            "tag": "test_results",
+		            "patterns": ["When will I get my test results?", "Are my lab results ready?", "How can I check my test results?"],
+		            "responses": ["Test results are usually ready within 24-48 hours.", "You can check your test results through our patient portal or by calling the lab."]
+		        },
+		        {
+		            "tag": "billing",
+		            "patterns": ["I have a billing question", "How can I pay my bill?", "Can I pay online?", "What payment methods do you accept?"],
+		            "responses": ["You can pay your bill online, by phone, or at the front desk.", "We accept cash, credit cards, and most insurance payments."]
+		        },
+		        {
+		            "tag": "location",
+		            "patterns": ["Where is your clinic located?", "What’s your address?", "How can I get to the hospital?", "Send me your location"],
+		            "responses": ["We’re located at 23 Main Street, Port-au-Prince.", "Our address is 23 Main Street, Port-au-Prince — next to the National Bank."]
+		        },
+		        {
+		            "tag": "opening_days",
+		            "patterns": ["Are you open on Sundays?", "Do you work on holidays?", "When are you closed?"],
+		            "responses": ["We’re closed on Sundays and public holidays.", "Our clinic operates Monday through Saturday."]
+		        },
+		        {
+		            "tag": "doctor_specialization",
+		            "patterns": ["Do you have a cardiologist?", "Can I see a pediatrician?", "I need a dermatologist", "What kind of doctors are available?"],
+		            "responses": ["Yes, we have specialists in cardiology, pediatrics, dermatology, and more.", "Please tell me what type of doctor you need, and I’ll assist you."]
+		        },
+		        {
+		            "tag": "prescription_refill",
+		            "patterns": ["I need a refill for my prescription", "Can I renew my medication?", "How to get more pills?", "Refill my drugs"],
+		            "responses": ["Sure, I can help with that. Which medication would you like to refill?", "Please provide your prescription ID or doctor’s name."]
+		        },
+		        {
+		            "tag": "vaccination",
+		            "patterns": ["Do you provide vaccines?", "Can I get vaccinated there?", "I want a flu shot", "Do you have COVID-19 vaccines?"],
+		            "responses": ["Yes, we offer flu, COVID-19, and other vaccines. Please book an appointment for vaccination.", "Vaccines are available Monday to Friday from 9 AM to 4 PM."]
+		        },
+		        {
+		            "tag": "feedback",
+		            "patterns": ["I want to leave feedback", "Can I rate my experience?", "I’d like to give feedback", "How can I share my opinion?"],
+		            "responses": ["We appreciate your feedback! Please share your thoughts about your experience.", "Thank you for helping us improve our services!"]
+		        },
+		        {
+		            "tag": "mental_health",
+		            "patterns": ["I feel anxious", "I’m depressed", "Can I speak to a psychologist?", "I have stress issues"],
+		            "responses": ["You’re not alone. We have qualified mental health professionals who can help.", "Would you like me to connect you with a psychologist?"]
+		        },
+		        {
+		            "tag": "diet_nutrition",
+		            "patterns": ["Can you give me a diet plan?", "I want to lose weight", "What’s a healthy diet?", "What should I eat to stay healthy?"],
+		            "responses": ["Our nutritionists can create a personalized diet plan for you.", "Eating balanced meals with vegetables, proteins, and fruits is key to good health."]
+		        },
+		        {
+		            "tag": "general_health_tips",
+		            "patterns": ["Give me a health tip", "How can I stay healthy?", "Any advice for better health?", "How do I boost my immune system?"],
+		            "responses": ["Stay hydrated, sleep 7–8 hours, and exercise regularly.", "Eat well, manage stress, and get regular checkups."]
+		        },
+		        {
+		            "tag": "symptom_fever",
+		            "patterns": ["I have a fever", "My temperature is high", "I feel hot and weak"],
+		            "responses": ["Try to rest, drink fluids, and take acetaminophen if needed. If fever persists, consult a doctor."]
+		        },
+		        {
+		            "tag": "symptom_cough",
+		            "patterns": ["I have a cough", "I can’t stop coughing", "I’m coughing a lot"],
+		            "responses": ["Is it a dry or wet cough? If it lasts more than a week, please see a doctor."]
+		        },
+		        {
+		            "tag": "symptom_cold",
+		            "patterns": ["I have a cold", "I feel congested", "My nose is running"],
+		            "responses": ["It sounds like a cold. Stay hydrated and rest well. If symptoms persist, consult a physician."]
+		        },
 				{
 				"tag": "feedback",
 				"patterns": [
 				"I want to leave feedback",
-				"Can I rate my experience?",
-				"I’d like to give feedback"
-				],
-				"responses": [
-				"We appreciate your feedback! Please share your thoughts about your experience.",
-				"Thank you for taking the time to give feedback — it helps us improve our services!"
-				]
-				}
-				]
-				}
+				 "Can I rate my experience?",
+				 "I’d like to give feedback"
+				 ],
+				 "responses": [
+				 "We appreciate your feedback! Please share your thoughts about your experience.",
+				 "Thank you for taking the time to give feedback — it helps us improve our services!"
+				 ]
+				 }
+				 ]
+				 }
     
