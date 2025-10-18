@@ -4943,7 +4943,172 @@
 				 "We appreciate your feedback! Please share your thoughts about your experience.",
 				 "Thank you for taking the time to give feedback — it helps us improve our services!"
 				 ]
-				 }
-				 ]
-				 }
-    
+				 },{
+			    "tag": "bookappointment",
+			    "patterns": [
+			      "I'd like to make an appointment with a doctor.",
+			      "Can I book a check-up for next week?",
+			      "I need to schedule a medical consultation.",
+			      "Please help me set an appointment with a physician.",
+			      "Can I arrange a visit for tomorrow morning?",
+			      "I want to see Dr. Smith this Friday.",
+			      "Book a doctor appointment for me.",
+			      "How can I schedule an appointment?",
+						      "I'd like to meet a doctor soon."
+			    ],
+			    "responses": [
+			      "Sure! Please provide your preferred date and time for the appointment.",
+			      "Of course, I can help you with that. What day works best for you?",
+			      "Let's book your appointment. Could you tell me the department or doctor?",
+			      "Got it! Please share your full name and contact number to confirm the appointment."
+			    ]
+			  },
+			  {
+			    "tag": "emergencycontact",
+			    "patterns": [
+			      "I need emergency medical help.",
+			      "Who should I call in case of an emergency?",
+			      "This is an emergency, what should I do?",
+			      "Give me the emergency hotline number.",
+			      "Can I talk to emergency support now?",
+			      "It's urgent, I have severe pain.",
+			      "Someone fainted, please help!",
+			      "How do I contact emergency services?",
+			      "Call for help immediately!"
+			    ],
+			    "responses": [
+			      "If this is a medical emergency, please dial 911 or go to the nearest hospital immediately.",
+			      "For emergencies, contact our emergency hotline at 3703 1116.",
+			      "Your safety comes first! Please reach out to the nearest emergency center right now."
+			    ]
+			  },
+			  {
+			    "tag": "transfercall",
+			    "patterns": [
+			      "Please transfer me to another department.",
+			      "Can you connect me with billing?",
+			      "I need to speak to a nurse.",
+			      "Transfer my call to the reception desk.",
+			      "Connect me to a doctor, please.",
+			      "Can you redirect me to insurance support?",
+			      "I want to talk to the pharmacy team.",
+			      "Send my call to the front desk.",
+			      "Can you switch my call to medical support?"
+			    ],
+			    "responses": [
+			      "Sure, I’ll transfer your call to the requested department.",
+			      "Please hold on a moment while I connect you to the right team.",
+			      "Okay! Redirecting your call to the department now."
+			    ]
+			  },
+			  {
+			    "tag": "vaccinationschedulelookup",
+			    "patterns": [
+			      "When is the next vaccination date?",
+			      "I want to check the vaccination schedule.",
+			      "What vaccines are available this week?",
+			      "Can you tell me when flu shots are given?",
+			      "I’d like to know the vaccination schedule.",
+			      "Is the COVID-19 vaccine available today?",
+			      "When can I book a vaccine appointment?",
+			      "Please share the vaccination timings.",
+			      "How can I find the next vaccination slot?"
+			    ],
+			    "responses": [
+			      "Our vaccination center operates from 9 AM to 4 PM, Monday to Friday.",
+			      "You can check the latest vaccination schedule on our website or call our vaccine desk.",
+			      "We currently offer flu and COVID-19 vaccines — would you like to book a slot?"
+			    ]
+			  },
+			  {
+			    "tag": "vaccinesideeffectsinfo",
+			    "patterns": [
+			      "What are the side effects of the COVID-19 vaccine?",
+			      "Do vaccines cause fever or fatigue?",
+			      "Is it normal to feel dizzy after vaccination?",
+			      "What should I do if I get a rash after the vaccine?",
+			      "Tell me the possible side effects of flu shots.",
+			      "Can I take painkillers after a vaccine?",
+			      "What symptoms should I watch for after vaccination?",
+			      "Are vaccines safe for children?"
+			    ],
+			    "responses": [
+			      "Mild fever, fatigue, and soreness at the injection site are common and usually go away within 1–2 days.",
+			      "If you experience severe symptoms, please contact your healthcare provider immediately.",
+			      "Most vaccine side effects are mild and short-lived."
+			    ]
+			  },
+			  {
+			    "tag": "recordtransferrequest",
+			    "patterns": [
+			      "I want to transfer my medical records.",
+			      "Can you send my records to another hospital?",
+			      "How can I share my health report with another doctor?",
+			      "I need my medical history forwarded to another clinic.",
+			      "Please move my records to a different facility.",
+			      "Can I get a copy of my medical records?",
+			      "Transfer my report to Dr. Lee.",
+			      "I want to request a health record transfer."
+			    ],
+			    "responses": [
+			      "Sure! Please provide the destination clinic’s details and authorization for record transfer.",
+			      "Your request will be processed within 48 hours after confirmation.",
+			      "We can securely transfer your records once we verify your identity."
+			    ]
+			  },
+			  {
+			    "tag": "telehealthavailability",
+			    "patterns": [
+			      "Do you offer telehealth consultations?",
+			      "Can I talk to a doctor online?",
+			      "Is telemedicine available now?",
+			      "How can I book a virtual appointment?",
+			      "Do you provide video consultations?",
+			      "Can I get medical advice remotely?",
+			      "Are your telehealth services open today?",
+			      "I prefer an online consultation, is that possible?"
+			    ],
+			    "responses": [
+			      "Yes! We offer telehealth appointments via our secure video platform.",
+			      "Virtual consultations are available from 8 AM to 6 PM, Monday through Friday.",
+			      "Would you like me to help you schedule an online appointment?"
+			    ]
+			  },
+			  {
+			    "tag": "confidentialitypolicylookup",
+			    "patterns": [
+			      "Where can I read your privacy policy?",
+			      "Do you share my medical information with others?",
+			      "Is my health data kept confidential?",
+			      "Tell me about your confidentiality policy.",
+			      "How do you protect patient information?",
+			      "What’s your data protection policy?",
+			      "Can you assure me my information is private?"
+			    ],
+			    "responses": [
+			      "We strictly adhere to patient privacy laws. Your data is encrypted and securely stored.",
+			      "You can review our confidentiality policy on our website under ‘Patient Privacy’.",
+			      "Your information is 100% confidential and shared only with authorized staff."
+			    ]
+			  },
+			  {
+			    "tag": "pediatricvaccinationschedulelookup",
+			    "patterns": [
+			      "When should my baby get vaccines?",
+			      "Can you tell me the vaccination schedule for infants?",
+			      "What shots are required for children?",
+			      "Is there a vaccine plan for toddlers?",
+			      "When is the next child vaccination due?",
+			      "I’d like to check my kid’s vaccination schedule.",
+			      "What are the recommended vaccines for children under 5?",
+			      "Do you provide pediatric immunization schedules?"
+			    ],
+			    "responses": [
+			      "Yes, we offer pediatric vaccination schedules. Would you like me to list them?",
+			      "Your child should receive key vaccines at 2, 4, 6, 12, and 18 months — confirm with your pediatrician.",
+			      "We can provide a detailed vaccination plan based on your child’s age."
+			    ]
+			    }
+				]
+				}
+			    
