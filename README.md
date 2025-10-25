@@ -1,6 +1,6 @@
 # Chatbot-Intelligent
 
-# 🩺 Classifying Healthcare Intents: An Intelligent Conversation Assistant
+# Classifying Healthcare Intents: An Intelligent Conversation Assistant
 ## MedBot : Systémisation du NLU pour l'Assistance Médicale de Premier Niveau
 
 ![Header Image: Intelligent Chatbot Interface or Neural Network Diagram]
